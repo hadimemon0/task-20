@@ -49,13 +49,12 @@ body {
 
 .nav-links a, .user-actions a {
     text-decoration: none;
-    color: var(--primary-color);
     font-weight: bold;
 }
 
 .search-bar input {
     padding: 8px;
-    border: 1px solid var(--border-color);
+    border: 1px solid;
     border-radius: 5px;
 }
 
@@ -87,8 +86,6 @@ body {
 
 .shop-now-btn {
     padding: 10px 20px;
-    background-color: var(--primary-color);
-    color: var(--background-white);
     border: none;
     cursor: pointer;
     margin-top: 10px;
@@ -134,7 +131,11 @@ body {
 .banner-group {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
+    gap: 150px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .banner {
@@ -148,10 +149,6 @@ body {
     align-items:first baseline;
     text-align: left;
 }
-
-.banner-palette { background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK-pkfus3kAB3Is-IPViqF3tUJEEzQSWrEFA&s'); background-repeat: no-repeat; }
-.banner-sunscreen { background-image: url('https://www.kabishah.com/cdn/shop/files/Sunblock_mockup_10.png?v=1751354088'); background-repeat: no-repeat; }
-.banner-brushes { background-image: url('https://rung.com.pk/cdn/shop/products/6075F_1024x1024.jpg?v=1650381768'); background-repeat: no-repeat; }
 
 .promo-banners {
     display: flex;
