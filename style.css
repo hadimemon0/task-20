@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background-light);
+    color: var(--secondary-color);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.site-header {
+    background-color: var(--background-white);
+    border-bottom: 1px solid var(--border-color);
+}
+
+.top-announcement {
+    display: flex;
+    justify-content: space-around;
+    background-color: #eee;
+    padding: 8px 0;
+    font-size: 12px;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a, .user-actions a {
+    text-decoration: none;
+    color: var(--primary-color);
+    font-weight: bold;
+}
+
+.search-bar input {
+    padding: 8px;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+}
+
+.hero-section {
+    position: relative;
+    background-image: url('https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhlmzYi5GZLVfLWDV5HDPAkneVL5jYIY8J_XSCQFS9rXmB0WD6xzCmgJ0mYy-TfTrwOj8jYbjaVQmvMMaGAzBjYetFDZDdMKSKpw_UN8zorqd5qMgwfRilOcsAKKYWM9DgBn4_nTY9QY3GG/s1600/IMG_6115.JPG');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    padding-left: 50px;
+    margin-bottom: 40px;
+}
+
+.hero-content {
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.hero-subtitle {
+    font-size: 18px;
+}
+
+.hero-title {
+    font-size: 4rem;
+    line-height: 1;
+}
+
+.shop-now-btn {
+    padding: 10px 20px;
+    background-color: var(--primary-color);
+    color: var(--background-white);
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.brand-section {
+    padding: 40px 20px;
+}
+
+.section-heading {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.brand-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.brand-card {
+    text-align: center;
+}
+
+.product-collection, .banner-group {
+    padding: 40px 20px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.product-card {
+    padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.banner-group {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.banner {
+    background-size: 300px;
+    background-position: center;
+    height: 200px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items:first baseline;
+    text-align: left;
+}
+
+.banner-palette { background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK-pkfus3kAB3Is-IPViqF3tUJEEzQSWrEFA&s'); background-repeat: no-repeat; }
+.banner-sunscreen { background-image: url('https://www.kabishah.com/cdn/shop/files/Sunblock_mockup_10.png?v=1751354088'); background-repeat: no-repeat; }
+.banner-brushes { background-image: url('https://rung.com.pk/cdn/shop/products/6075F_1024x1024.jpg?v=1650381768'); background-repeat: no-repeat; }
+
+.promo-banners {
+    display: flex;
+    gap: 80px;
+    padding: 40px 20px;
+}
+
+.brand-logo {
+    width: 150px;
+    padding: 15px;
+}
+
+.brand-logos {
+    border: 3px solid black;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.site-footer {
+    padding: 40px 20px;
+}
+
+.footer-top {
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.footer-column {
+    flex: 1;
+    min-width: 150px;
+}
+
+.footer-column ul {
+    list-style: none;
+}
+
+.footer-column a {
+    text-decoration: none;
+    color: black;
+}
