@@ -50,6 +50,8 @@ body {
 .nav-links a, .user-actions a {
     text-decoration: none;
     font-weight: bold;
+    color: black;
+
 }
 
 .search-bar input {
